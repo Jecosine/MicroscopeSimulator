@@ -1,3 +1,5 @@
+using System.Collections.Generic;
+
 namespace MicroscopeNamespace.Models
 {
   public class ParamType
@@ -18,11 +20,17 @@ namespace MicroscopeNamespace.Models
     public float maxValue;
     public float step;
   }
-  public class stringParam : ParamType
+  public class StringParam : ParamType
   {
     public string value;
     public string minValue;
     public string maxValue;
     public string step;
+  }
+  public class ListParam<T> : ParamType
+  {
+    public string name;
+    public T currentValue;
+    public List<T> valueList;
   }
 }
