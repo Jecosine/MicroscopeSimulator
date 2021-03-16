@@ -30,4 +30,12 @@ namespace MicroscopeNamespace.Events
       this.value = value;
     }
   }
+  public class CustomArg<T> : EventArgs
+  {
+    public T value;
+    public CustomArg(T value)
+    {
+      this.value = value;
+    }
+  }
 }

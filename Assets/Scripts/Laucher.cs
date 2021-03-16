@@ -10,7 +10,7 @@ namespace MicroscopeNamespace
     void Start()
     {
       globalEventManager = GlobalEventManager.GetInstance();
-      globalEventManager.BindEvent("test", TestHandler);
+      // globalEventManager.BindEvent("test", TestHandler);
     }
     void TestHandler(EventArgs args)
     {

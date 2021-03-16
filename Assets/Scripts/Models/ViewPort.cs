@@ -3,7 +3,7 @@ using System.Collections;
 using MicroscopeNamespace.Enums;
 using MicroscopeNamespace.Events;
 using UnityEngine;
-namespace MicroscopeNamespace.Model
+namespace MicroscopeNamespace.Models
 {
   public class ViewPort : MonoBehaviour, MicroscopeNamespace.Interfaces.IViewPort
   {

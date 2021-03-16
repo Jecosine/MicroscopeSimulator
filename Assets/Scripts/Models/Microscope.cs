@@ -3,7 +3,7 @@ using System.Collections;
 using System.Security;
 using MicroscopeNamespace.Enums;
 
-namespace MicroscopeNamespace.Model
+namespace MicroscopeNamespace.Models
 {
   public class Microscope : MicroscopeNamespace.Interfaces.IMicroscope
   {

@@ -5,7 +5,7 @@ using System;
 
 namespace MicroscopeNamespace.Events
 {
-  public class BasicEvent : UnityEvent<EventArgs>
+  public class BasicEvent : UnityEvent<GameObject, EventArgs>
   {
 
   }

@@ -7,6 +7,9 @@
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="Scripts" t="Include">
+          <e p="Entities" t="Include">
+            <e p="Eyepiece.cs" t="Include" />
+          </e>
           <e p="Enums" t="Include">
             <e p="Eyepiece.cs" t="Include" />
             <e p="ObjectGlass.cs" t="Include" />
@@ -18,16 +21,23 @@
             <e p="ManipulationEvent.cs" t="Include" />
           </e>
           <e p="Interfaces" t="Include">
+            <e p="IConfigurable.cs" t="Include" />
+            <e p="IGlass.cs" t="Include" />
             <e p="IMicroscope.cs" t="Include" />
             <e p="IViewPort.cs" t="Include" />
           </e>
           <e p="Laucher.cs" t="Include" />
           <e p="Models" t="Include">
+            <e p="Glass.cs" t="Include" />
             <e p="Microscope.cs" t="Include" />
             <e p="ParameterConfig.cs" t="Include" />
+            <e p="ParamType.cs" t="Include" />
             <e p="PartialObject.cs" t="Include" />
             <e p="Slide.cs" t="Include" />
             <e p="ViewPort.cs" t="Include" />
+          </e>
+          <e p="Utils" t="Include">
+            <e p="MenuManager.cs" t="Include" />
           </e>
           <e p="View" t="Include">
             <e p="RotationViewer.cs" t="Include" />

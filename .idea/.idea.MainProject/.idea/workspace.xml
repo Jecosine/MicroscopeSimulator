@@ -1,21 +1,73 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="f5097f57-6ee2-47c5-ad98-e64d47d1d42c" name="Default Changelist" comment="" />
+    <list default="true" id="f5097f57-6ee2-47c5-ad98-e64d47d1d42c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.MainProject/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MainProject/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.MainProject/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MainProject/.idea/indexLayout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.MainProject/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MainProject/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Entities/Eyepiece.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Entities/Eyepiece.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Events/BasicEvent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Events/BasicEvent.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Events/BasicEventArgs.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Events/BasicEventArgs.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Events/GlobalEventManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Events/GlobalEventManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Interfaces/IConfigurable.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Interfaces/IConfigurable.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Interfaces/IGlass.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Interfaces/IGlass.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Laucher.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Laucher.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Models/Microscope.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Models/Microscope.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Models/PartialObject.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Models/PartialObject.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Models/Slide.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Models/Slide.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Models/ViewPort.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Models/ViewPort.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Utils/MenuManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Utils/MenuManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/View/RotationViewer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/View/RotationViewer.cs" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assembly-CSharp.csproj" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Events/BasicEvent.cs" />
+        <option value="$PROJECT_DIR$/Assembly-CSharp.csproj" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Interfaces/IGlassComponent.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Interfaces/IGlass.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Interfaces/IConfigurable.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Models/Microscope.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Models/ParamType.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Models/Slide.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Models/ViewPort.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Models/Glass.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Entities/Eyepiece.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Utils/OptionGenerator.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Utils/MenuManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Models/PartialObject.cs" />
       </list>
     </option>
   </component>
   <component name="ProjectId" id="1pL5bKDzGfdagG7hHUWcqtYiqFM" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -24,7 +76,8 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="idea.background.editor" value="C:\Users\MJ_OL\Pictures\65053285_p0 (2).jpg,5,scale,center" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Console Font" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
@@ -56,6 +109,9 @@
       <option name="presentableId" value="Default" />
       <updated>1614949605634</updated>
       <workItem from="1614949610911" duration="1727000" />
+      <workItem from="1614967389449" duration="4413000" />
+      <workItem from="1614971928699" duration="132000" />
+      <workItem from="1614972112754" duration="6275000" />
     </task>
     <servers />
   </component>
@@ -64,21 +120,49 @@
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="570" y="186" key="SettingsEditor" timestamp="1614951272433">
+    <state x="835" y="517" width="725" height="318" key="#C#" timestamp="1614969672314">
       <screen x="0" y="0" width="1970" height="1152" />
     </state>
-    <state x="570" y="186" key="SettingsEditor/0.0.1970.1152/-1920.0.1920.1040@0.0.1970.1152" timestamp="1614951272433" />
+    <state x="835" y="517" width="725" height="318" key="#C#/0.0.1970.1152/-1920.0.1920.1040@0.0.1970.1152" timestamp="1614969672314" />
+    <state x="734" y="401" key="#Notifications" timestamp="1614972129379">
+      <screen x="0" y="0" width="1970" height="1152" />
+    </state>
+    <state x="734" y="401" key="#Notifications/0.0.1970.1152/-1920.0.1920.1040@0.0.1970.1152" timestamp="1614972129379" />
+    <state x="570" y="186" key="SettingsEditor" timestamp="1615007469673">
+      <screen x="0" y="0" width="1970" height="1152" />
+    </state>
+    <state x="570" y="186" key="SettingsEditor/0.0.1970.1152/-1920.0.1920.1040@0.0.1970.1152" timestamp="1615007469673" />
+    <state x="115" y="153" width="1784" height="966" key="VCS.FileHistoryDialog" timestamp="1614972375994">
+      <screen x="0" y="0" width="1970" height="1152" />
+    </state>
+    <state x="115" y="153" width="1784" height="966" key="VCS.FileHistoryDialog/0.0.1970.1152/-1920.0.1920.1040@0.0.1970.1152" timestamp="1614972375994" />
+    <state x="-1198" y="-24" width="870" height="786" maximized="true" key="dock-window-1" timestamp="1614972375995">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="-1198" y="-24" width="870" height="786" maximized="true" key="dock-window-1/0.0.1970.1152/-1920.0.1920.1040@0.0.1970.1152" timestamp="1614972375995" />
     <state x="834" y="415" width="609" height="560" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1614951269224">
       <screen x="0" y="0" width="1970" height="1152" />
     </state>
     <state x="834" y="415" width="609" height="560" key="org.intellij.images.editor.actions.BackgroundImageDialog/0.0.1970.1152/-1920.0.1920.1040@0.0.1970.1152" timestamp="1614951269224" />
-    <state x="648" y="253" width="672" height="678" key="search.everywhere.popup" timestamp="1614950546288">
+    <state x="648" y="253" width="672" height="678" key="search.everywhere.popup" timestamp="1614971594939">
       <screen x="0" y="0" width="1970" height="1152" />
     </state>
-    <state x="648" y="253" width="672" height="678" key="search.everywhere.popup/0.0.1970.1152/-1920.0.1920.1040@0.0.1970.1152" timestamp="1614950546288" />
+    <state x="648" y="253" width="672" height="678" key="search.everywhere.popup/0.0.1970.1152/-1920.0.1920.1040@0.0.1970.1152" timestamp="1614971594939" />
   </component>
 </project>

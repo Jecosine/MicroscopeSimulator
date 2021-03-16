@@ -50,7 +50,7 @@ namespace MicroscopeNamespace.Events
       eventDict.TryGetValue(eventName, out basicEvent);
       return basicEvent;
     }
-    public void BindEvent(string eventName, UnityAction<EventArgs> listener)
+    public void BindEvent(string eventName, UnityAction<GameObject, EventArgs> listener)
     {
       Debug.Log("In manager, binding event");
 
@@ -69,16 +69,16 @@ namespace MicroscopeNamespace.Events
     }
     public void UnbindEvent(string eventName)
     {
-
+      
     }
-    public void TriggerEvent(string eventName, EventArgs args)
+    public void TriggerEvent(string eventName, GameObject src, EventArgs args)
     {
       BasicEvent basicEvent = GetEvent(eventName);
       Debug.Log("in manager, triggering event");
       if (basicEvent != null)
       {
         Debug.Log("in manager, got event, triggered");
-        basicEvent.Invoke(args);
+        basicEvent.Invoke(src, args);
       }
     }
   }

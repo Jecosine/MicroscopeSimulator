@@ -21,7 +21,7 @@ namespace MicroscopeNamespace.View
     {
       Debug.Log("Start Dragging");
       // test event
-      globalEventManager.TriggerEvent("test", new StringArg("arg!!!"));
+      // globalEventManager.TriggerEvent("test", new StringArg("arg!!!"));
     }
     public void OnDrag(PointerEventData e)
     {

@@ -5,17 +5,14 @@ using MicroscopeNamespace.Interfaces;
 using System.Collections.Generic;
 using MicroscopeNamespace.Models;
 
-namespace MicroscopeNamespace.Model
+namespace MicroscopeNamespace.Models
 {
-  public class PartialObject: IConfigurable
+  public abstract class PartialObject
   {
     public bool onSelect;
     public string name;
-    public List<ParamType> Params;
-    
-    public void OnParameterChange(ParamType param)
-    {
-      // todo change state of partial object
-    }
+    public ListParam<Glass> Params;
+    public abstract void Init();
+    public abstract void OnParameterChange(ParamType param);
   }
 }

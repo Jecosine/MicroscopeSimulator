@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace MicroscopeNamespace.Model
+namespace MicroscopeNamespace.Models
 {
   public class Slide
   {
